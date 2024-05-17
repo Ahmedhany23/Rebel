@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import vector from "@/app/assets/about/vector.png";
+import { IoIosArrowForward } from "react-icons/io";
 import Content1 from "./1-content";
 import { motion } from "framer-motion";
 
@@ -33,7 +33,7 @@ export default function page() {
           Contact
         </h1>
         <p className="text-[24px] font-semibold text-[#ffffff]">
-          Home <Image src={vector} alt=">" className="inline"></Image> Contact
+          Home <IoIosArrowForward className="inline font-bold text-[24px]"/>  Contact
         </p>
       </motion.main>
       <Content1 item={item} motion={motion} />

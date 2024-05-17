@@ -1,10 +1,10 @@
 'use client';
 import React from "react";
 import Image from "next/image";
-import vector from "@/app/assets/about/vector.png";
 import Content1 from "./1-content";
 import Content2 from "./2-content";
 import { motion } from "framer-motion";
+import { IoIosArrowForward } from "react-icons/io";
 export const list = {
   visible: { opacity: 1 },
   hidden: { opacity: 0 },
@@ -34,7 +34,7 @@ export default function page() {
             Travel Packages
           </h1>
           <p className="text-[24px] font-semibold text-[#ffffff]">
-            Home <Image src={vector} alt=">" className="inline"></Image> Package
+            Home <IoIosArrowForward className="inline font-bold text-[24px]"/>  Package
           </p>
         </motion.div>
       </section>
