@@ -30,16 +30,16 @@ export default function Content4({ motion, item }) {
       </motion.div>
       <div className="flex flex-col xl:flex-row gap-5 xl:w-[85rem] mx-auto mt-20 text-center items-center justify-center overflow-hidden">
         <div className="relative bali  duration-200 overflow-hidden">
-          <Image src={image1}></Image>
+          <Image alt="image" src={image1}></Image>
         </div>
         <div className="flex flex-col gap-5">
           <div className="relative dubai">
-            <Image src={image2}></Image>
+            <Image alt="image" src={image2}></Image>
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mx-auto lg:mx-0">
-            <Image src={image3}></Image>
+            <Image alt="image" src={image3}></Image>
             <div className="relative italy">
-              <Image src={image4}></Image>
+              <Image alt="image" src={image4}></Image>
             </div>
           </div>
         </div>

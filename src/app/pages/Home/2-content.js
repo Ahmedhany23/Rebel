@@ -93,7 +93,7 @@ export default function content2({ motion, item }) {
             {data.map((d,i) => (
               <SwiperSlide key={i} className=" md:mx-2 lg:px-7">
                 <div className="card lg:w-[329.95px] lg:h-[432.77px] flex flex-col bg-white py-20 px-10 lg:py-14 lg:px-7 rounded-md gap-5">
-                  <Image src={d.image} className="w-[95.57px] h-[97px]"></Image>
+                  <Image alt="image" src={d.image} className="w-[95.57px] h-[97px]"></Image>
                   <h1 className="text-[#000000] text-[24px] font-semibold">
                     {d.heading}
                   </h1>

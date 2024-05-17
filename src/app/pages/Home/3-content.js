@@ -47,7 +47,7 @@ export default function Content3({ motion, item }) {
         className="flex flex-col items-center text-center place-content-center gap-5 lg:flex-row lg:gap-[3.5rem]  xl:gap-[6.5rem] pt-16 lg:px-56"
       >
         {data.map((d) => {
-          return <Image key={d.image} src={d.image}></Image>;
+          return <Image alt="image" key={d.image} src={d.image}></Image>;
         })}
       </motion.div>
     </section>

@@ -27,11 +27,11 @@ export default function Content3({ motion, item }) {
         {data.map((d, i) => {
           return (
             <div key={i} className="flex gap-10">
-              <Image src={d.icon} className="w-[79px]"></Image>
+              <Image alt="icon" src={d.icon} className="w-[79px]"></Image>
               <div className=" relative w-[140px] ">
                 <div className="flex flex-col">
                   <div className=" absolute top-0 right-5  ">
-                    <Image src={postive}></Image>
+                    <Image alt="+" src={postive}></Image>
                   </div>
 
                   <h2 className=" font-semibold text-[48px] text-[#fff]">

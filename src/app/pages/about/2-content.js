@@ -8,7 +8,7 @@ export default function Content2({ motion, item }) {
       <div className="mx-auto xl:w-[80rem]">
         <div className="flex flex-col justify-center items-center gap-10 lg:justify-normal lg:items-stretch lg:flex-row lg:gap-32">
           
-            <Image src={image} className="lg:w-[557px] h-[549px]"></Image>
+            <Image alt="image" src={image} className="lg:w-[557px] h-[549px]"></Image>
          
 
           <motion.div
@@ -19,7 +19,7 @@ export default function Content2({ motion, item }) {
             variants={item}
             className="flex  flex-col gap-10"
           >
-            <Image src={qoute} className="w-[80px]"></Image>
+            <Image alt="image" src={qoute} className="w-[80px]"></Image>
 
             <p className="text-[18px] text-[#484848] leading-[30px] font-medium">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc

@@ -75,6 +75,7 @@ export default function Content1({ motion, item }) {
                   className="card md:w-[27.8rem] md:h-[40rem] m-4 rounded-md bg-white shadow-2xl  "
                 >
                   <Image
+                  alt="image"
                     src={d.image}
                     className="w-full md:h-[20rem] bg-center bg-cover"
                   />
@@ -119,6 +120,7 @@ export default function Content1({ motion, item }) {
                   className="card md:w-[27.8rem] md:h-[40rem] m-4 rounded-md bg-white shadow-2xl  "
                 >
                   <Image
+                  alt="image"
                     src={d.image}
                     className="w-full md:h-[20rem] bg-center bg-cover"
                   />

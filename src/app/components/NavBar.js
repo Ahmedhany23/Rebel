@@ -38,7 +38,7 @@ export default function NavBar() {
   const router = usePathname();
   return (
     <nav className={` justify-between lg:px-0 xl:px-16 flex  bg-[#120B0B] bg-opacity-[51%]  items-center ${hide?'hidden':'fixed'} duration-200 top-0 left-0 right-0  z-10`}>
-      <Image src={logo} className="w-[220px] md:w-[357px] lg:w-[500px]" loading="eager" />
+      <Image alt="logo" src={logo} className="w-[220px] md:w-[357px] lg:w-[500px]" loading="eager" />
       <ul className="menu hidden lg:flex gap-6  xl:px-20 lg:pl-24 ">
         {navLinks.map((item)=>{
           return( <Link key={item.name} href={item.href} className={router === item.href ? "font-bold" : ""}>
@@ -46,7 +46,7 @@ export default function NavBar() {
           </Link>);
          
         })}
-        <Image src={search} className=""></Image>
+        <Image alt="searchicon" src={search} className=""></Image>
       </ul>
       
       <button className={`${open?'hidden':'block'} lg:hidden mr-1  text-4xl text-white duration-200`} onClick={()=>{setopen(true)}}><IoMdMenu /></button>
