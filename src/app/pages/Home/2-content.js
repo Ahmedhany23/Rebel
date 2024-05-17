@@ -35,7 +35,7 @@ const data = [
   },
 ];
 export default function content2({ motion, item }) {
-  const initialTheme = localStorage.getItem("theme") || "light";
+
   return (
     <section className="content2 pt-20 pb-10 bg-white">
       <motion.div
