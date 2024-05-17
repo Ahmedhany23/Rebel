@@ -2,32 +2,137 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.button {
+  @apply bg-black text-white rounded-full font-semibold text-[18px] duration-200 hover:bg-white hover:text-black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.menu a {
+  @apply text-white cursor-pointer  text-[16px] flex items-center  xl:px-5 py-5 flex-wrap min-w-fit;
+}
+.header {
+  background-color: rgb(89, 107, 107);
+  background-image: url("./assets/Home/suitcase.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  font-family: monospace;
+  color: #737373;
+  background-color: #ffffff;
+  font-size: 40px;
+  font-weight: 200;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  /* Hover styles */
+  background-color: #dfdfdfa1;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.content2 {
+  background-color: rgb(89, 107, 107);
+  background-image: url("./assets/Home/content2/unsplash_okVXy9tG3KY_Nero\ AI_Standard_x2.png");
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+
+.footerimage {
+  background-color: rgba(47, 112, 197, 0.603);
+  background-image: url("./assets/Home/footer.png");
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+
+.about {
+  background-color: aqua;
+  background-image: url("./assets//about/Aboutimage.png");
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+}
+.content3about {
+  background-color: gray;
+  background-image: url("./assets/about/content3/content3image.png");
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+
+.bali::before {
+  content: "Bali";
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  font-weight: 600;
+  font-size: 60px;
+  z-index: 10;
+  font-size: 36px;
+}
+.dubai::before {
+  content: "Dubai";
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  font-weight: 600;
+  font-size: 60px;
+  z-index: 10;
+  font-size: 36px;
+}
+.italy::before {
+  content: "Italy";
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  font-weight: 600;
+  font-size: 60px;
+  z-index: 10;
+  font-size: 36px;
+}
+
+.packageimage {
+  background-color: rgb(202, 156, 70);
+  background-image: url("./assets/Package/packageimage.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+}
+
+.imagecontent {
+  background-color: aqua;
+  background-image: url("./assets//Package/image.png");
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
+
+.blogimage {
+  background-color: aquamarine;
+  background-image: url('./assets/blog/blogimage.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+}
+
+.contactimage{
+  background-color: bisque;
+  background-image: url('./assets/contact/Banner.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
 }
