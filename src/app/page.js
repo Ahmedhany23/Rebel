@@ -1,8 +1,4 @@
 "use client";
-import logo from "@/app/assets/Home/logo.png";
-import Image from "next/image";
-import NavBar from "./components/NavBar";
-import background from "@/app/assets/Home/suitcase.jpg";
 import Content1 from "./pages/Home/1-content";
 import Content2 from "./pages/Home/2-content";
 import Content3 from "./pages/Home/3-content";
