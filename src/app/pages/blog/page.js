@@ -6,10 +6,7 @@ import Content1 from "./1-content";
 import Content2 from "./2-content";
 import { motion } from "framer-motion";
 
-export const list = {
-  visible: { opacity: 1 },
-  hidden: { opacity: 0 },
-};
+
 
 export const item = {
   visible: { opacity: 1, x: 0 },

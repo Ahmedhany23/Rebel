@@ -1,6 +1,6 @@
 'use client';
 import Image from "next/image";
-import vector from "@/app/assets/about/vector.png";
+import vector from "@/app/assets/about/vector.webp";
 import Content1 from "./1-content";
 import Content2 from "./2-content";
 import Content3 from "./3-content";

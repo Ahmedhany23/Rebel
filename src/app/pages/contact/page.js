@@ -1,13 +1,9 @@
 "use client";
 import Image from "next/image";
-import vector from "@/app/assets/about/vector.png";
+import vector from "@/app/assets/about/vector.webp";
 import Content1 from "./1-content";
 import { motion } from "framer-motion";
 
-export const list = {
-  visible: { opacity: 1 },
-  hidden: { opacity: 0 },
-};
 
 export const item = {
   visible: { opacity: 1, x: 0 },
