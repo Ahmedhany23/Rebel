@@ -1,6 +1,6 @@
 import Image from "next/image";
-import image1 from "@/app/assets/blog/content1/image1.png";
-import image2 from "@/app/assets/blog/content1/image2.png";
+import image1 from "@/app/assets/blog/content1/image1.webp";
+import image2 from "@/app/assets/blog/content1/image2.webp";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import post1 from "@/app/assets/blog/content1/post1.png";

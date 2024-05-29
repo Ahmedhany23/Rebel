@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-import image1 from "@/app/assets/about/content4/unsplash_R98l5I6OFQY.png";
-import image2 from "@/app/assets/about/content4/unsplash_jG3I8b5iyHI.png";
-import image3 from "@/app/assets/about/content4/Paris.png";
-import image4 from "@/app/assets/about/content4/unsplash_hFXZ5cNfkOk.png";
+import image1 from "@/app/assets/about/content4/unsplash_R98l5I6OFQY.webp";
+import image2 from "@/app/assets/about/content4/unsplash_jG3I8b5iyHI.webp";
+import image3 from "@/app/assets/about/content4/Paris.webp";
+import image4 from "@/app/assets/about/content4/unsplash_hFXZ5cNfkOk.webp";
 
 const data = [
   { image: image1 },
@@ -30,16 +30,16 @@ export default function Content4({ motion, item }) {
       </motion.div>
       <div className="flex flex-col xl:flex-row gap-5 xl:w-[85rem] mx-auto mt-20 text-center items-center justify-center overflow-hidden">
         <div className="relative bali  duration-200 overflow-hidden">
-          <Image alt="image" src={image1}></Image>
+          <Image src={image1} alt="image"></Image>
         </div>
         <div className="flex flex-col gap-5">
           <div className="relative dubai">
-            <Image alt="image" src={image2}></Image>
+            <Image src={image2} alt="image"></Image>
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mx-auto lg:mx-0">
-            <Image alt="image" src={image3}></Image>
+            <Image src={image3} alt="image"></Image>
             <div className="relative italy">
-              <Image alt="image" src={image4}></Image>
+              <Image src={image4} alt="image"></Image>
             </div>
           </div>
         </div>

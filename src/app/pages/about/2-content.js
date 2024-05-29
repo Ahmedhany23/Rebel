@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import image from "@/app/assets/about/content2/hero.png";
+import image from "@/app/assets/about/content2/hero.webp";
 import qoute from "@/app/assets/about/content2/qoute.png";
 export default function Content2({ motion, item }) {
   return (
@@ -8,18 +8,18 @@ export default function Content2({ motion, item }) {
       <div className="mx-auto xl:w-[80rem]">
         <div className="flex flex-col justify-center items-center gap-10 lg:justify-normal lg:items-stretch lg:flex-row lg:gap-32">
           
-            <Image alt="image" src={image} className="lg:w-[557px] h-[549px]"></Image>
+            <Image src={image} className="lg:w-[557px] h-[549px]" alt="image"/>
          
 
           <motion.div
-            initial="right"
+            initial="left"
             whileInView="visible"
             viewport={{ once: true }}
             transition={{ type: "spring", stiffness: 100 }}
             variants={item}
             className="flex  flex-col gap-10"
           >
-            <Image alt="image" src={qoute} className="w-[80px]"></Image>
+            <Image src={qoute} alt="qoute" className="w-[80px]"/>
 
             <p className="text-[18px] text-[#484848] leading-[30px] font-medium">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc

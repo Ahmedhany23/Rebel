@@ -69,14 +69,14 @@ export default function Content1({ motion, item }) {
                 Lhoksemawe, Aceh{" "}
               </h1>
               <p className="text-[18px] text-[#6c6c6c] font-medium flex gap-2 items-center mb-3">
-                <Image  alt="icon"  src={icon2} className="w-[20px]"></Image>+62 6943 6956
+                <Image src={icon2} className="w-[20px]"></Image>+62 6943 6956
               </p>
               <p className="text-[18px] text-[#6c6c6c] font-medium flex gap-2 items-center mb-3 ">
-                <Image  alt="icon" src={icon3} className="w-[20px]"></Image>
+                <Image src={icon3} className="w-[20px]"></Image>
                 contact@domain.com
               </p>
               <p className="text-[18px] text-[#6c6c6c] font-medium flex gap-2 items-center ">
-                <Image  alt="icon" src={icon1} className="w-[20px]"></Image>Jl. Darussalam
+                <Image src={icon1} className="w-[20px]"></Image>Jl. Darussalam
                 Hagu selatan
               </p>
             </div>

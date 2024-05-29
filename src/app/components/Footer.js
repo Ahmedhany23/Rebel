@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/app/assets/Home/logo 2.png";
+import logo from "@/app/assets/Home/logo 2.webp";
 
 import icon1 from "@/app/assets/Home/footericons/ic_baseline-place.png";
 import icon2 from "@/app/assets/Home/footericons/fluent_mail-20-filled.png";
@@ -54,9 +54,9 @@ export default function Footer() {
           <div>
             <Image
               src={logo}
-              alt="logo"
               className=" w-[250px] lg:w-[394px] h-[94px]"
-            ></Image>
+              alt="logo"
+            />
             <p className=" max-w-none lg:w-[437px] text-[#6c6c6c] text-[18px] font-medium">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
               pharetra condimentum.
@@ -67,14 +67,14 @@ export default function Footer() {
               Contact Information
             </h1>
             <p className="text-[18px] text-[#6c6c6c] font-medium flex gap-2 items-center mb-3">
-              <Image src={icon1} alt='icon' className="w-[20px]"></Image>732 Despard
+              <Image src={icon1} className="w-[20px]" alt="icon"></Image>732 Despard
               St,Atlanta
             </p>
             <p className="text-[18px] text-[#6c6c6c] font-medium flex gap-2 items-center mb-3">
-              <Image src={icon2} alt='icon'  className="w-[20px]"></Image>+97 888 8888
+              <Image src={icon2} className="w-[20px]" alt="icon"></Image>+97 888 8888
             </p>
             <p className="text-[18px] text-[#6c6c6c] font-medium flex gap-2 items-center  ">
-              <Image src={icon3}  alt='icon'  className="w-[20px]"></Image>info@traveller.com
+              <Image src={icon3} className="w-[20px]" alt="icon"></Image>info@traveller.com
             </p>
           </div>
           <div>

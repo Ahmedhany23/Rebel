@@ -5,10 +5,7 @@ import Content3 from "./pages/Home/3-content";
 import Content4 from "./pages/Home/4-content";
 import { motion } from "framer-motion";
 
-export const list = {
-  visible: { opacity: 1 },
-  hidden: { opacity: 0 },
-};
+
 
 export const item = {
   visible: { opacity: 1, x: 0 },
@@ -28,8 +25,8 @@ export default function Home() {
           initial="hidden"
           animate="visible"
           transition={{ delay: 1 }}
-          variants={list}
-          className=" pl-5 text-[60px] lg:text-[130px] lg:w-[612px] font-bold text-white  font-[500]  leading-[100px] "
+          variants={item}
+          className=" pl-5 text-[60px] lg:text-[130px] lg:w-[612px] font-bold text-white    leading-[100px] "
         >
           Make in your journey.
         </motion.h1>
@@ -37,7 +34,7 @@ export default function Home() {
           initial="hidden"
           animate="visible"
           transition={{ delay: 1 }}
-          variants={list}
+          variants={item}
           className=" pl-5 font-medium text-[18px] text-[#CFCFCF] pt-14 lg:w-[440px]"
         >
           Explore the world with what you love beautiful natural beauty.
@@ -92,10 +89,10 @@ export default function Home() {
           Bali, Istanbul, Rome, Paris.
         </p>
       </header>
-      <Content1 list={list} item={item} motion={motion} />
-      <Content2 list={list} item={item} motion={motion}/>
-      <Content3 list={list} item={item} motion={motion}/>
-      <Content4 list={list} item={item} motion={motion}/>
+      <Content1  item={item} motion={motion} />
+      <Content2  item={item} motion={motion}/>
+      <Content3  item={item} motion={motion}/>
+      <Content4  item={item} motion={motion}/>
     </>
   );
 }

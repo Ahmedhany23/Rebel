@@ -38,7 +38,7 @@ export default function Content1({ motion, item }) {
         {data.map((d, i) => {
           return (
             <div key={i} className="flex flex-col items-center gap-5 mr-7">
-              <Image alt="image" src={d.image} className="w-[83.33px]"></Image>
+              <Image src={d.image} className="w-[83.33px]" alt="image"></Image>
               <h1 className="text-[40px] lg:text-[48px] font-semibold text-[#000000]">
                 {d.text}
               </h1>

@@ -1,9 +1,10 @@
 "use client";
 import Image from "next/image";
-import card1 from "@/app/assets/Home/content1/Rectangle 18.png";
-import card2 from "@/app/assets/Home/content1/unsplash_519_90ncAds.png";
-import card3 from "@/app/assets/Home/content1/dino-reichmuth-A5rCN8626Ck-unsplash.jpg";
-import card4 from "@/app/assets/Home/content1/unsplash_sELcHR_bGVs.png";
+import card1 from "@/app/assets/Home/content1/image1.webp";
+import card2 from "@/app/assets/Home/content1/image2.webp";
+import card3 from "@/app/assets/Home/content1/image3.webp";
+import card4 from "@/app/assets/Home/content1/image4.webp";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Navigation,
@@ -15,17 +16,17 @@ import {
 
 import "swiper/css"; // Import Swiper styles
 import "swiper/css/pagination";
-import { delay } from "framer-motion";
+
 
 const data = [
   { image: card1 },
   { image: card2 },
   { image: card3 },
   { image: card4 },
+ 
 ];
 
 export default function Content1({ motion, list, item }) {
-
 
   return (
     <section className="w-full pt-20  pb-10">
@@ -110,7 +111,7 @@ export default function Content1({ motion, list, item }) {
               <Image
                 src={d.image}
                 alt="Slide Image"
-                className="h-[377.72px] w-full rounded-md "
+                className="h-[377.72px] w-full  "
               />
             </SwiperSlide>
           ))}

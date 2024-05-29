@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .button {
   @apply bg-black text-white rounded-full font-semibold text-[18px] duration-200 hover:bg-white hover:text-black;
 }
@@ -11,7 +12,7 @@
 }
 .header {
   background-color: rgb(89, 107, 107);
-  background-image: url("./assets/Home/suitcase.jpg");
+  background-image: url("./assets/Home/suitcase.webp");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -36,17 +37,11 @@
   background-color: #dfdfdfa1;
 }
 
-.content2 {
-  background-color: rgb(89, 107, 107);
-  background-image: url("./assets/Home/content2/unsplash_okVXy9tG3KY_Nero\ AI_Standard_x2.png");
-  background-position: center;
-  background-size: cover;
-  height: auto;
-}
+
 
 .footerimage {
   background-color: rgba(47, 112, 197, 0.603);
-  background-image: url("./assets/Home/footer.png");
+  background-image: url("./assets/Home/footer.webp");
   background-position: center;
   background-size: cover;
   height: auto;
@@ -54,7 +49,7 @@
 
 .about {
   background-color: aqua;
-  background-image: url("./assets//about/Aboutimage.png");
+  background-image: url("./assets//about/Aboutimage.webp");
   background-position: center;
   background-size: cover;
   height: auto;
@@ -62,7 +57,7 @@
 }
 .content3about {
   background-color: gray;
-  background-image: url("./assets/about/content3/content3image.png");
+  background-image: url("./assets/about/content3/content3image.webp");
   background-position: center;
   background-size: cover;
   height: auto;
@@ -104,7 +99,7 @@
 
 .packageimage {
   background-color: rgb(202, 156, 70);
-  background-image: url("./assets/Package/packageimage.png");
+  background-image: url("./assets/Package/packageimage.webp");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -113,7 +108,7 @@
 
 .imagecontent {
   background-color: aqua;
-  background-image: url("./assets//Package/image.png");
+  background-image: url("./assets//Package/image.webp");
   background-position: center;
   background-size: cover;
   height: auto;
@@ -121,7 +116,7 @@
 
 .blogimage {
   background-color: aquamarine;
-  background-image: url('./assets/blog/blogimage.png');
+  background-image: url('./assets/blog/blogimage.webp');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -130,7 +125,7 @@
 
 .contactimage{
   background-color: bisque;
-  background-image: url('./assets/contact/Banner.png');
+  background-image: url('./assets/contact/Banner.webp');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;

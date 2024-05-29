@@ -29,7 +29,7 @@ export default function page() {
         viewport={{ once: true }}
         transition={{ type: "spring", stiffness: 100 }}
         variants={item}
-        className="flex flex-col items-center place-content-center text-center py-[150px]  lg:py-[410px]"
+        className="flex flex-col items-center place-content-center text-center py-[150px]  lg:py-[410px] xl:py-[600px]"
       >
         <h1 className="text-white font-bold text-6xl text-center xl:w-auto ">
           Travel Stories For Now and the Future{" "}
