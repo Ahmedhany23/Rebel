@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import vector from "@/app/assets/about/vector.webp";
+import vector from "../../assets/about/Vector.webp";
 import Content1 from "./1-content";
 import { motion } from "framer-motion";
 
@@ -23,7 +23,7 @@ export default function page() {
         viewport={{ once: true }}
         transition={{ type: "spring", stiffness: 100 }}
         variants={item}
-        className="flex flex-col items-center place-content-center text-center py-[300px]  lg:py-[500px] xl:py-[600px]"
+        className="flex flex-col items-center place-content-center text-center py-[300px]  lg:py-[500px] "
       >
         <h1 className="text-6xl  text-[#ffffff] font-bold  ">
           Contact

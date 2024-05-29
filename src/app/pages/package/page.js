@@ -1,7 +1,7 @@
 'use client';
 import React from "react";
 import Image from "next/image";
-import vector from "@/app/assets/about/vector.webp";
+import vector from "../../assets/about/Vector.webp";
 import Content1 from "./1-content";
 import Content2 from "./2-content";
 import { motion } from "framer-motion";
@@ -24,7 +24,7 @@ export default function page() {
           viewport={{ once: true }}
           transition={{ type: "spring", stiffness: 100 }}
           variants={item}
-          className="flex flex-col items-center place-content-center text-center py-[300px]  lg:py-[400px] xl:py-[600px]"
+          className="flex flex-col items-center place-content-center text-center py-[300px]  lg:py-[400px] "
         >
           <h1 className="text-[60px] lg:text-[90px] text-[#ffffff] font-bold  ">
             Travel Packages
