@@ -24,7 +24,7 @@ export default function page() {
         initial="bottom"
         whileInView="visibley"
         viewport={{ once: true }}
-        transition={{ type: "spring", stiffness: 100 }}
+        transition={{ type: "spring", stiffness: 100 ,delay:0.7 }}
         variants={Framer}
         className="flex flex-col items-center place-content-center text-center py-[150px]  lg:py-[410px]"
       >

@@ -27,6 +27,7 @@ export default function Home() {
         <motion.h1
           initial="hidden"
           animate="visible"
+          transition={{ delay: 0.7 }}
           variants={Framer}
           className=" pl-5 text-[60px] lg:text-[130px] lg:w-[612px] font-bold text-white    leading-[100px] z-30 "
         >
@@ -35,7 +36,7 @@ export default function Home() {
         <motion.p
           initial="hidden"
           animate="visible"
-          transition={{ delay: 0.3 }}
+          transition={{ delay: 0.8}}
           variants={Framer}
           className=" pl-5 font-medium text-[18px] text-[#CFCFCF] pt-14 lg:w-[440px]"
         >
