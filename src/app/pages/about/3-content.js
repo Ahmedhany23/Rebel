@@ -15,7 +15,7 @@ const data = [
 
 export default function Content3({ motion, item }) {
   return (
-    <main className=" relative py-[200px]">
+    <main className=" relative pm run py-[200px]">
     
    <Image
           src={content}

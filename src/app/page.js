@@ -36,7 +36,7 @@ export default function Home() {
         <motion.p
           initial="hidden"
           animate="visible"
-          transition={{ delay: 1 }}
+          transition={{ delay: 0.3 }}
           variants={Framer}
           className=" pl-5 font-medium text-[18px] text-[#CFCFCF] pt-14 lg:w-[440px]"
         >
