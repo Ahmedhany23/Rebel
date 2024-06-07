@@ -5,7 +5,7 @@ import traveller from "@/app/assets/about/content3/traveller.png";
 import destination from "@/app/assets/about/content3/destination.png";
 import award from "@/app/assets/about/content3/award.png";
 import postive from "@/app/assets/about/content3/postive.png";
-
+import content from "@/app/assets/about/content3/content3image.webp"
 const data = [
   { icon: satisfied, count: "126", info: "Satisfied Client" },
   { icon: traveller, count: "230", info: "New Traveller" },
@@ -15,7 +15,17 @@ const data = [
 
 export default function Content3({ motion, item }) {
   return (
-    <main className="content3about py-[200px]">
+    <main className=" relative py-[200px]">
+    
+   <Image
+          src={content}
+          alt="workers"
+          quality="100"
+          layout="fill"
+          objectFit="cover"
+          className="-z-10"
+        />
+     
       <motion.div
         initial="hiddeny"
         whileInView="visibley"

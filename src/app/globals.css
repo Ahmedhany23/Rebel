@@ -107,5 +107,20 @@
   height: auto;
 }
 
+.blogimage {
+  background-color: aquamarine;
+  background-image: url('./assets/blog/blogimage.webp');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+}
 
-
+.contactimage{
+  background-color: bisque;
+  background-image: url('./assets/contact/Banner.webp');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+}
