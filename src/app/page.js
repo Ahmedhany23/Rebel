@@ -18,7 +18,6 @@ export default function Home() {
         <Image
           src={background}
           alt="workers"
-          quality="100"
           layout="fill"
           objectFit="cover"
           objectPosition="top"

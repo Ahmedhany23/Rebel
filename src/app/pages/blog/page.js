@@ -15,7 +15,6 @@ export default function page() {
         <Image
           src={background}
           alt="workers"
-          quality="100"
           layout="fill"
           objectFit="cover"
           className="-z-10"

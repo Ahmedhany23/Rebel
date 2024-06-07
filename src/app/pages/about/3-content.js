@@ -20,7 +20,6 @@ export default function Content3({ motion, item }) {
    <Image
           src={content}
           alt="workers"
-          quality="100"
           layout="fill"
           objectFit="cover"
           className="-z-10"
