@@ -47,14 +47,7 @@
   height: auto;
 }
 
-.about {
-  background-color: aqua;
-  background-image: url("./assets//about/Aboutimage.webp");
-  background-position: center;
-  background-size: cover;
-  height: auto;
-  background-attachment: fixed;
-}
+.
 .content3about {
   background-color: gray;
   background-image: url("./assets/about/content3/content3image.webp");
@@ -114,20 +107,5 @@
   height: auto;
 }
 
-.blogimage {
-  background-color: aquamarine;
-  background-image: url('./assets/blog/blogimage.webp');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: auto;
-}
 
-.contactimage{
-  background-color: bisque;
-  background-image: url('./assets/contact/Banner.webp');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: auto;
-}
+

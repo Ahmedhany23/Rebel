@@ -3,26 +3,27 @@ import Image from "next/image";
 import vector from "../../assets/about/Vector.webp";
 import Content1 from "./1-content";
 import { motion } from "framer-motion";
+import background from "@/app/assets/contact/Banner.webp"
+import { Framer } from "@/app/components/Framer";
 
-
-export const item = {
-  visible: { opacity: 1, x: 0 },
-  left: { opacity: 0, x: -100 },
-  right: { opacity: 0, x: 100 },
-  hiddeny: { opacity: 0.3, y: -100 },
-  visibley: { opacity: 1, y: 0 },
-  bottom: { opacity: 1, y: 100 },
-};
 
 export default function page() {
   return (
-    <header className="contactimage">
+    <header>
+     <Image
+          src={background}
+          alt="workers"
+          quality="100"
+          layout="fill"
+          objectFit="cover"
+          className="-z-10"
+        />
       <motion.main
         initial="bottom"
         whileInView="visibley"
         viewport={{ once: true }}
         transition={{ type: "spring", stiffness: 100 }}
-        variants={item}
+        variants={Framer}
         className="flex flex-col items-center place-content-center text-center py-[300px]  lg:py-[500px] "
       >
         <h1 className="text-6xl  text-[#ffffff] font-bold  ">
@@ -32,7 +33,7 @@ export default function page() {
           Home <Image src={vector} alt=">" className="inline"></Image> Contact
         </p>
       </motion.main>
-      <Content1 item={item} motion={motion} />
+      <Content1 item={Framer} motion={motion} />
     </header>
   );
 }

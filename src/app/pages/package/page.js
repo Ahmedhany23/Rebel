@@ -5,25 +5,27 @@ import vector from "../../assets/about/Vector.webp";
 import Content1 from "./1-content";
 import Content2 from "./2-content";
 import { motion } from "framer-motion";
-
-export const item = {
-  visible: { opacity: 1, x: 0 },
-  left: { opacity: 0, x: -100 },
-  right: { opacity: 0, x: 100 },
-  hiddeny: { opacity: 0.3, y: -100 },
-  visibley: { opacity: 1, y: 0 },
-  bottom: { opacity: 1, y: 100 },
-};
+import background from "@/app/assets/Package/packageimage.webp"
+import { Framer } from "@/app/components/Framer";
 export default function page() {
   return (
     <main>
-      <section className="packageimage ">
+      <section className="overflow-hidden">
+        <Image
+          src={background}
+          alt="workers"
+          quality="100"
+          layout="fill"
+          objectFit="cover"
+          className="-z-10"
+        />
+     
         <motion.div
           initial="left"
           whileInView="visible"
           viewport={{ once: true }}
           transition={{ type: "spring", stiffness: 100 }}
-          variants={item}
+          variants={Framer}
           className="flex flex-col items-center place-content-center text-center py-[300px]  lg:py-[400px] "
         >
           <h1 className="text-[60px] lg:text-[90px] text-[#ffffff] font-bold  ">
@@ -34,9 +36,9 @@ export default function page() {
           </p>
         </motion.div>
       </section>
-      <Content1 item={item} motion={motion}/>
+      <Content1 item={Framer} motion={motion}/>
       <section className="imagecontent py-72 hidden xl:block"></section>
-      <Content2 item={item} motion={motion}/>
+      <Content2 item={Framer} motion={motion}/>
     </main>
   );
 }

@@ -29,13 +29,13 @@ const data = [
 export default function Content1({ motion, list, item }) {
 
   return (
-    <section className="w-full pt-20  pb-10">
+    <section className="w-full pt-20  pb-10 overflow-hidden">
       <motion.div
-        initial="hiddeny"
-        whileInView="visibley"
+        initial="right"
+        whileInView="visible"
         transition={{ type: "spring", stiffness: 100 }}
         variants={item}
-        className="flex items-center place-content-center flex-col  "
+        className="flex items-center  flex-col  w-full "
       >
         <h1 className="font-semibold text-[30px] text-[#020202] lg:w-[725.79px]   pb-4 lg:text-[60px]">
           Explore new worlds with exotic natural scenery

@@ -3,6 +3,7 @@ import logo1 from "@/app/assets/about/content1/Vector-2.png";
 import logo2 from "@/app/assets/about/content1/Vector-1.png";
 import logo3 from "@/app/assets/about/content1/Vector.png";
 import Image from "next/image";
+
 const data = [
   {
     image: logo1,

@@ -6,26 +6,28 @@ import Content2 from "./2-content";
 import Content3 from "./3-content";
 import Content4 from "./4-content";
 import { motion } from "framer-motion";
+import background from "@/app/assets/about/Aboutimage.webp"
+import { Framer } from "@/app/components/Framer";
 
-
-export const item = {
-  visible: { opacity: 1, x: 0 },
-  left: { opacity: 0, x: -100 },
-  right: { opacity: 0, x: 100 },
-  hiddeny: { opacity: 0.3, y: -100 },
-  visibley: { opacity: 1, y: 0 },
-  bottom: { opacity: 1, y: 100 },
-};
 
 export default function page() {
   return (
-    <header className="about ">
+    <header>
+        <Image
+          src={background}
+          alt="workers"
+          quality="100"
+          layout="fill"
+          objectFit="cover"
+          className="-z-10"
+        />
+     
       <motion.div
         initial="bottom"
         animate="visibley"
         viewport={{ once: true }}
         transition={{ type: "spring", stiffness: 100 }}
-        variants={item}
+        variants={Framer}
         className="flex flex-col items-center place-content-center text-center py-[300px]  lg:py-[400px]"
       >
         <h1 className="text-[60px] lg:text-[90px] text-[#ffffff] font-bold  ">
@@ -35,10 +37,10 @@ export default function page() {
           Home <Image src={vector} alt=">" className="inline"></Image> About Us
         </p>
       </motion.div>
-      <Content1 item={item} motion={motion} />
-      <Content2 item={item} motion={motion}/>
-      <Content3 item={item} motion={motion}/>
-      <Content4 item={item} motion={motion}/>
+      <Content1 item={Framer} motion={motion} />
+      <Content2 item={Framer} motion={motion}/>
+      <Content3 item={Framer} motion={motion}/>
+      <Content4 item={Framer} motion={motion}/>
     </header>
   );
 }
