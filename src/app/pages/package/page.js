@@ -13,10 +13,9 @@ export default function page() {
       <section className="overflow-hidden">
         <Image
           src={background}
-          alt="workers"
-          quality="100"
-          layout="fill"
-          objectFit="cover"
+          alt="Travel"
+          fill
+          style={{objectFit:"cover"}}
           className="-z-10"
         />
      

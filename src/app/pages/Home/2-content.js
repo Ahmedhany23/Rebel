@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import background from "@/app/assets/Home/content2/unsplash_okVXy9tG3KY_Nero AI_Standard_x2.png"
+import background from "@/app/assets/Home/content2/unsplash_okVXy9tG3KY_Nero AI_Standard_x2.png";
 import card1 from "@/app/assets/Home/content2/Group 31-1.png";
 import card2 from "@/app/assets/Home/content2/Group 31.png";
 import card3 from "@/app/assets/Home/content2/Frame 1.png";
@@ -25,15 +25,13 @@ const data = [
   },
 ];
 export default function content2({ motion, item }) {
-
   return (
     <section className="relative pt-20 pb-10 bg-white">
       <Image
         alt="background-image"
         className="background-image absolute top-0 left-0 right-0 w-full  h-[500px]"
         src={background}
-        
-        objectFit="cover"
+        style={{ objectFit: "cover" }}
         priority
       />
 
@@ -70,9 +68,7 @@ export default function content2({ motion, item }) {
             <h1 className="text-[#000000] text-[24px] font-semibold">
               {d.heading}
             </h1>
-            <p className="text-[#858585] font-medium text-[18px]">
-              {d.para}
-            </p>
+            <p className="text-[#858585] font-medium text-[18px]">{d.para}</p>
             <div className="text-[#000000] text-[18px] pt-10 flex text-center items-center">
               Learn More
               <span className="text-[#000000] text-[30px] font-medium w-[30px]">

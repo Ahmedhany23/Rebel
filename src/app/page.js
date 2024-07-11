@@ -18,9 +18,9 @@ export default function Home() {
         <Image
           src={background}
           alt="workers"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="top"
+          fill
+          style={{objectFit:"cover",objectPosition:"top"}}
+          priority
           className="-z-10"
         />
     

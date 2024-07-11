@@ -17,17 +17,14 @@ import {
 import "swiper/css"; // Import Swiper styles
 import "swiper/css/pagination";
 
-
 const data = [
   { image: card1 },
   { image: card2 },
   { image: card3 },
   { image: card4 },
- 
 ];
 
 export default function Content1({ motion, list, item }) {
-
   return (
     <section className="w-full pt-20  pb-10 overflow-hidden">
       <motion.div
@@ -56,11 +53,14 @@ export default function Content1({ motion, list, item }) {
             {"<"}
           </motion.button>
           <button
-           initial="right"
+            initial="right"
             whileInView="visible"
             transition={{ type: "spring", stiffness: 100 }}
             variants={item}
-           className="swiper-button-next shadow-2xl">{">"}</button>
+            className="swiper-button-next shadow-2xl"
+          >
+            {">"}
+          </button>
         </div>
 
         <Swiper
@@ -110,6 +110,7 @@ export default function Content1({ motion, list, item }) {
             <SwiperSlide key={d.image} className="lg:px-4">
               <Image
                 src={d.image}
+                style={{ objectFit: "cover" }}
                 alt="Slide Image"
                 className="h-[377.72px] w-full  "
               />

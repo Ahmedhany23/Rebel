@@ -16,8 +16,9 @@ export default function page() {
         <Image
           src={background}
           alt="workers"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{objectFit:"cover"}}
+          priority
           className="-z-10"
         />
      

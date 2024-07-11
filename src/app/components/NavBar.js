@@ -42,7 +42,8 @@ export default function NavBar() {
         src={logo}
         alt="logo"
         className="w-[220px] md:w-[357px] lg:w-[500px]"
-        loading="eager"
+        style={{objectFit:"cover"}}
+        priority
       />
       <ul className="menu hidden lg:flex gap-6  xl:px-20 lg:pl-24 ">
         {navLinks.map((item) => {

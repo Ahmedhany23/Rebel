@@ -87,6 +87,7 @@ export default function Content2({ motion, item }) {
               <Image
                 src={imagecontent2}
                 alt="image"
+                style={{objectFit:"cover"}}
                 className="w-full hidden xl:block lg:h-[42.5rem]"
               ></Image>
               <div className="flex flex-col justify-center lg:px-10 ">
