@@ -10,12 +10,7 @@
 .menu a {
   @apply text-white cursor-pointer  text-[16px] flex items-center  xl:px-5 py-5 flex-wrap min-w-fit;
 }
-.header {
-  background-color: rgb(89, 107, 107);
-  background-image: url("./assets/Home/suitcase.webp");
-  background-size: cover;
-  background-attachment: fixed;
-}
+
 .swiper-button-prev,
 .swiper-button-next {
   font-family: monospace;
@@ -38,23 +33,14 @@
 }
 
 
-
 .footerimage {
   background-color: rgba(47, 112, 197, 0.603);
-  background-image: url("./assets/Home/footer.webp");
+  background-image: url("./Images/Home/footer.webp");
   background-position: center;
   background-size: cover;
   height: auto;
 }
 
-.
-.content3about {
-  background-color: gray;
-  background-image: url("./assets/about/content3/content3image.webp");
-  background-position: center;
-  background-size: cover;
-  height: auto;
-}
 
 .bali::before {
   content: "Bali";
@@ -90,37 +76,3 @@
   font-size: 36px;
 }
 
-.packageimage {
-  background-color: rgb(202, 156, 70);
-  background-image: url("./assets/Package/packageimage.webp");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: auto;
-}
-
-.imagecontent {
-  background-color: aqua;
-  background-image: url("./assets//Package/image.webp");
-  background-position: center;
-  background-size: cover;
-  height: auto;
-}
-
-.blogimage {
-  background-color: aquamarine;
-  background-image: url('./assets/blog/blogimage.webp');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: auto;
-}
-
-.contactimage{
-  background-color: bisque;
-  background-image: url('./assets/contact/Banner.webp');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: auto;
-}

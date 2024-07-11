@@ -1,9 +1,9 @@
 import Image from "next/image";
-import logo from "@/app/assets/Home/logo 2.webp";
+import logo from "@/app/Images/Home/logo 2.webp";
 
-import icon1 from "@/app/assets/Home/footericons/ic_baseline-place.png";
-import icon2 from "@/app/assets/Home/footericons/fluent_mail-20-filled.png";
-import icon3 from "@/app/assets/Home/footericons/carbon_phone-filled.png";
+import icon1 from "@/app/Images/Home/footericons/ic_baseline-place.png";
+import icon2 from "@/app/Images/Home/footericons/fluent_mail-20-filled.png";
+import icon3 from "@/app/Images/Home/footericons/carbon_phone-filled.png";
 
 import Link from "next/link";
 import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";

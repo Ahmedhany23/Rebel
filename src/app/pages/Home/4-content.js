@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 
-import sara from "@/app/assets/Home/contnet4/Mask Group.png";
-import cristian from "@/app/assets/Home/contnet4/cristian.png";
-import Kausar from "@/app/assets/Home/contnet4/kausar.png";
-import Ahmed from "@/app/assets/Home/contnet4/1.png";
+import sara from "@/app/Images/Home/contnet4/Mask Group.png";
+import cristian from "@/app/Images/Home/contnet4/cristian.png";
+import Kausar from "@/app/Images/Home/contnet4/kausar.png";
+import Ahmed from "@/app/Images/Home/contnet4/1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Navigation,

@@ -2,10 +2,10 @@
 
 import Image from "next/image";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import background from "@/app/assets/Home/content2/unsplash_okVXy9tG3KY_Nero AI_Standard_x2.png";
-import card1 from "@/app/assets/Home/content2/Group 31-1.png";
-import card2 from "@/app/assets/Home/content2/Group 31.png";
-import card3 from "@/app/assets/Home/content2/Frame 1.png";
+import background from "@/app/Images/Home/content2/unsplash_okVXy9tG3KY_Nero AI_Standard_x2.png";
+import card1 from "@/app/Images/Home/content2/Group 31-1.png";
+import card2 from "@/app/Images/Home/content2/Group 31.png";
+import card3 from "@/app/Images/Home/content2/Frame 1.png";
 
 const data = [
   {

@@ -5,7 +5,7 @@ import Content3 from "./pages/Home/3-content";
 import Content4 from "./pages/Home/4-content";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import background from "@/app/assets/Home/suitcase.webp"
+import background from "@/app/Images/Home/suitcase.webp"
 import { Framer } from "./components/Framer";
 
 

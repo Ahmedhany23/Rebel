@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import logo1 from "@/app/assets/Home/content3/Katana.png";
-import logo2 from "@/app/assets/Home/content3/travava.png";
-import logo3 from "@/app/assets/Home/content3/bigui.png";
-import logo4 from "@/app/assets/Home/content3/Booking.com.png";
-import logo5 from "@/app/assets/Home/content3/Jakmaen.png";
+import logo1 from "@/app/Images/Home/content3/Katana.png";
+import logo2 from "@/app/Images/Home/content3/travava.png";
+import logo3 from "@/app/Images/Home/content3/bigui.png";
+import logo4 from "@/app/Images/Home/content3/Booking.com.png";
+import logo5 from "@/app/Images/Home/content3/Jakmaen.png";
 
 const data = [
   { image: logo1 },

@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-import card1 from "@/app/assets/Home/content1/image1.webp";
-import card2 from "@/app/assets/Home/content1/image2.webp";
-import card3 from "@/app/assets/Home/content1/image3.webp";
-import card4 from "@/app/assets/Home/content1/image4.webp";
+import card1 from "@/app/Images/Home/content1/image1.webp";
+import card2 from "@/app/Images/Home/content1/image2.webp";
+import card3 from "@/app/Images/Home/content1/image3.webp";
+import card4 from "@/app/Images/Home/content1/image4.webp";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import {

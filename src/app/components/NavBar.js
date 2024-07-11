@@ -1,6 +1,6 @@
 "use client";
-import logo from "@/app/assets/Home/logo.webp";
-import search from "@/app/assets/Home/Vector.svg";
+import logo from "@/app/Images/Home/logo.webp";
+import search from "@/app/Images/Home/Vector.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
