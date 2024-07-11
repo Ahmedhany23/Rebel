@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import satisfied from "@/app/assets/about/content3/staisfied.png";
-import traveller from "@/app/assets/about/content3/traveller.png";
-import destination from "@/app/assets/about/content3/destination.png";
-import award from "@/app/assets/about/content3/award.png";
-import postive from "@/app/assets/about/content3/postive.png";
-import content from "@/app/assets/about/content3/content3image.webp"
+import satisfied from "@/app/Images/about/content3/staisfied.png";
+import traveller from "@/app/Images/about/content3/traveller.png";
+import destination from "@/app/Images/about/content3/destination.png";
+import award from "@/app/Images/about/content3/award.png";
+import postive from "@/app/Images/about/content3/postive.png";
+import content from "@/app/Images/about/content3/content3image.webp"
 const data = [
   { icon: satisfied, count: "126", info: "Satisfied Client" },
   { icon: traveller, count: "230", info: "New Traveller" },

@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import card1 from "@/app/assets/Package/content1/card1.png";
-import card2 from "@/app/assets/Package/content1/card2.png";
-import card3 from "@/app/assets/Package/content1/card3.png";
-import card4 from "@/app/assets/Package/content1/card4.png";
-import card5 from "@/app/assets/Package/content1/card5.png";
-import card6 from "@/app/assets/Package/content1/card6.png";
+import card1 from "@/app/Images/Package/content1/card1.png";
+import card2 from "@/app/Images/Package/content1/card2.png";
+import card3 from "@/app/Images/Package/content1/card3.png";
+import card4 from "@/app/Images/Package/content1/card4.png";
+import card5 from "@/app/Images/Package/content1/card5.png";
+import card6 from "@/app/Images/Package/content1/card6.png";
 
 import { IoStarSharp } from "react-icons/io5";
 import { delay } from "framer-motion";

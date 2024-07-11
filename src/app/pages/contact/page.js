@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-import vector from "../../assets/about/Vector.webp";
+import vector from "../../Images/about/Vector.webp";
 import Content1 from "./1-content";
 import { motion } from "framer-motion";
-import background from "@/app/assets/contact/Banner.webp"
+import background from "@/app/Images/contact/Banner.webp"
 import { Framer } from "@/app/components/Framer";
 
 

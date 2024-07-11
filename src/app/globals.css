@@ -40,6 +40,13 @@
   background-size: cover;
   height: auto;
 }
+.imagecontent {
+  background-color: aqua;
+  background-image: url("./Images//Package/image.webp");
+  background-position: center;
+  background-size: cover;
+  height: auto;
+}
 
 
 .bali::before {

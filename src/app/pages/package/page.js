@@ -1,11 +1,11 @@
 'use client';
 import React from "react";
 import Image from "next/image";
-import vector from "../../assets/about/Vector.webp";
+import vector from "../../Images/about/Vector.webp";
 import Content1 from "./1-content";
 import Content2 from "./2-content";
 import { motion } from "framer-motion";
-import background from "@/app/assets/Package/packageimage.webp"
+import background from "@/app/Images/Package/packageimage.webp"
 import { Framer } from "@/app/components/Framer";
 export default function page() {
   return (

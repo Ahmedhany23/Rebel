@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import icon1 from "@/app/assets/Home/footericons/ic_baseline-place.png";
-import icon2 from "@/app/assets/Home/footericons/fluent_mail-20-filled.png";
-import icon3 from "@/app/assets/Home/footericons/carbon_phone-filled.png";
+import icon1 from "@/app/Images/Home/footericons/ic_baseline-place.png";
+import icon2 from "@/app/Images/Home/footericons/fluent_mail-20-filled.png";
+import icon3 from "@/app/Images/Home/footericons/carbon_phone-filled.png";
 export default function Content1({ motion, item }) {
   return (
     <section className="bg-white ">

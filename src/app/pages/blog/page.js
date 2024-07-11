@@ -5,7 +5,7 @@ import { FaRegFolderOpen } from "react-icons/fa";
 import Content1 from "./1-content";
 import Content2 from "./2-content";
 import { motion } from "framer-motion";
-import background from "@/app/assets/blog/blogimage.webp"
+import background from "@/app/Images/blog/blogimage.webp"
 import { Framer } from "@/app/components/Framer";
 
 

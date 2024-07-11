@@ -1,5 +1,5 @@
 import Image from "next/image";
-import imagecontent2 from "@/app/assets/Package/content2/imagecontent2.webp";
+import imagecontent2 from "@/app/Images/Package/content2/imagecontent2.webp";
 export default function Content2({ motion, item }) {
   return (
     <header>

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import image from "@/app/assets/about/content2/hero.webp";
-import qoute from "@/app/assets/about/content2/qoute.png";
+import image from "@/app/Images/about/content2/hero.webp";
+import qoute from "@/app/Images/about/content2/qoute.png";
 export default function Content2({ motion, item }) {
   return (
     <main className="pb-[100px] bg-white  ">

@@ -1,11 +1,11 @@
 import Image from "next/image";
-import image1 from "@/app/assets/blog/content1/image1.webp";
-import image2 from "@/app/assets/blog/content1/image2.webp";
+import image1 from "@/app/Images/blog/content1/image1.webp";
+import image2 from "@/app/Images/blog/content1/image2.webp";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { AiFillTwitterCircle } from "react-icons/ai";
-import post1 from "@/app/assets/blog/content1/post1.png";
-import post2 from "@/app/assets/blog/content1/post2.png";
-import post3 from "@/app/assets/blog/content1/post3.png";
+import post1 from "@/app/Images/blog/content1/post1.png";
+import post2 from "@/app/Images/blog/content1/post2.png";
+import post3 from "@/app/Images/blog/content1/post3.png";
 import { GoArrowRight } from "react-icons/go";
 
 import { MdCall } from "react-icons/md";

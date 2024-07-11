@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-import image1 from "@/app/assets/about/content4/unsplash_R98l5I6OFQY.webp";
-import image2 from "@/app/assets/about/content4/unsplash_jG3I8b5iyHI.webp";
-import image3 from "@/app/assets/about/content4/Paris.webp";
-import image4 from "@/app/assets/about/content4/unsplash_hFXZ5cNfkOk.webp";
+import image1 from "@/app/Images/about/content4/unsplash_R98l5I6OFQY.webp";
+import image2 from "@/app/Images/about/content4/unsplash_jG3I8b5iyHI.webp";
+import image3 from "@/app/Images/about/content4/Paris.webp";
+import image4 from "@/app/Images/about/content4/unsplash_hFXZ5cNfkOk.webp";
 
 const data = [
   { image: image1 },
